@@ -1,0 +1,225 @@
+[
+  {
+    "name": "Cookies aux chocolat",
+    "title": "Cookies_aux_chocolat",
+    "ingredients": {
+      "sel": "une pincée",
+      "levure": "1 cuillère à café",
+      "sucre semoule": "120g",
+      "sucre brun": "120g",
+      "farine": "350g",
+      "beurre": "250g",
+      "chocolat": "300g",
+      "oeufs": "2"
+    },
+    "time": "2000",
+    "steps": [
+      {
+        "description": "Travailler le beurre mou avec les deux sucres jusqu'à obtention d'un mélange homogène",
+        "type": "Melanger",
+        "time": 300
+      },
+      {
+        "description": "Ajouter les œufs",
+        "type": "Ajouter",
+        "time": 30
+      },
+      {
+        "description": "Mélanger le tout",
+        "type": "Melanger",
+        "time": 60
+      },
+      {
+        "description": "Ajouter la farine tamisée, le sel et la levure en poudre",
+        "type": "Ajouter",
+        "time": 60
+      },
+      {
+        "description": "Mélanger le tout",
+        "type": "Melanger",
+        "time": 60
+      },
+      {
+        "description": "Ajouter les pépites de chocolat",
+        "type": "Ajouter",
+        "time": 30
+      },
+      {
+        "description": "Mélanger le tout",
+        "type": "Melanger",
+        "time": 60
+      },
+      {
+        "description": "Recouvrer la plaque de cuisson de papier cuisson ou sulfurisé, et à l'aide de 2 cuillères à café, disposez-y des petits tas de pâte de la valeur d'une noix",
+        "type": "Recouvrir",
+        "time": 200
+      },
+      {
+        "description": "préchauffer à 180°C votre four",
+        "type": "Prechauffer",
+        "time": 300
+      },
+      {
+        "description": "Enfourner la plaque de cuisson",
+        "type": "Enfourner",
+        "time": 600
+      },
+      {
+        "description": "Laisser les cookies cuits sur une grille pour les laisser refroidir",
+        "type": "Refroidir",
+        "time": 300
+      }
+    ]
+  },
+
+  {
+    "name": "Gâteau au chocolat",
+    "title": "Gateau_au_chocolat",
+    "ingredients": {
+      "sucre en poudre": "100g",
+      "farine": "50g",
+      "beurre": "100g",
+      "chocolat": "200g",
+      "oeufs": "3"
+    },
+    "time": "2640",
+    "steps": [
+      {
+        "description": "Dans une casserole, faites fondre le chocolat et le beurre coupé en morceaux à feu très doux",
+        "type": "Fondre",
+        "time": 240
+      },
+      {
+        "description": "Dans un saladier, ajouter le sucre, les oeufs, la farine",
+        "type": "Ajouter",
+        "time": 30
+      },
+      {
+        "description": "Mélanger le tout",
+        "type": "Melanger",
+        "time": 60
+      },
+      {
+        "description": "Ajouter le mélange chocolat/beurre",
+        "type": "Ajouter",
+        "time": 30
+      },
+      {
+        "description": "Mélanger le tout",
+        "type": "Melanger",
+        "time": 60
+      },
+      {
+        "description": "Beurrer à l'aide d'une feuille de papier essuie-tout",
+        "type": "Beurrer",
+        "time": 60
+      },
+      {
+        "description": "Fariner votre moule",
+        "type": "Fariner",
+        "time": 30
+      },
+      {
+        "description": "Verser la pâte à gâteau",
+        "type": "Verser",
+        "time": 30
+      },
+      {
+        "description": "Préchauffer votre four à 180°C",
+        "type": "Prechauffer",
+        "time": 300
+      },
+      {
+        "description": "Enfourner au four le gâteau",
+        "type": "Enfourner",
+        "time": 1200
+      },
+      {
+        "description": "A la sortie du four le gâteau ne paraît pas assez cuit. C'est normal, laissez-le refroidir puis démoulez-le",
+        "type": "Refroidir",
+        "time": 600
+      }
+    ]
+  },
+
+  {
+    "name": "Flan",
+    "title": "Flan",
+    "ingredients": {
+      "gousse de vanille": "1",
+      "maïzena": "90g",
+      "sucre en poudre": "150g",
+      "pâte brisée": "1",
+      "oeufs": "4",
+      "lait": "1l"
+    },
+    "time": "3100",
+    "steps": [
+      {
+        "description": "Mélanger la maïzena tamisée avec le sucre",
+        "type": "Melanger",
+        "time": 60
+      },
+      {
+        "description": "Battre les oeufs",
+        "type": "Battre",
+        "time": 30
+      },
+      {
+        "description": "Ajouter les oeufs bien battus au mélange",
+        "type": "Ajouter",
+        "time": 30
+      },
+      {
+        "description": "Mélanger le tout",
+        "type": "Melanger",
+        "time": 60
+      },
+      {
+        "description": "Faire bouillir le lait avec la gousse de vanille fendue",
+        "type": "Bouillir",
+        "time": 240
+      },
+      {
+        "description": "Ajouter le lait bouillant (sans la gousse)",
+        "type": "Ajouter",
+        "time": 30
+      },
+      {
+        "description": "Cuire la préparation à feu doux sans cesser de remuer",
+        "type": "Cuire",
+        "time": 100
+      },
+      {
+        "description": "Préchauffer le four à 200°C",
+        "type": "Prechauffer",
+        "time": 300
+      },
+      {
+        "description": "Beurrez un plat rectangulaire ou rond",
+        "type": "Beurrer",
+        "time": 30
+      },
+      {
+        "description": "Recouvrez le plat beurré avec la pâte brisée",
+        "type": "Recouvrir",
+        "time": 60
+      },
+      {
+        "description": "Piquez le fond avec une fourchette",
+        "type": "Piquer",
+        "time": 30
+      },
+      {
+        "description": "Y verser la préparation",
+        "type": "Verser",
+        "time": 30
+      },
+      {
+        "description": "Enfourner le plat au four",
+        "type": "Enfourner",
+        "time": 2100
+      }
+    ]
+  }
+]

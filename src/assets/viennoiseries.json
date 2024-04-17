@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Chaussons aux pommes",
+    "title": "Chaussons-aux-pommes",
+    "ingredients": {
+      "pâtes feuilletées": "2",
+      "pommes": "3",
+      "oeufs": "2",
+      "beurre pommade": "100g",
+      "poudre d'amande": "125g",
+      "sucre glace": "20g",
+      "fécule de maïs": "14g",
+      "cuillère à café d'arôme vanille": "1/2",
+      "lait pour la dorure": "10g"
+    },
+    "time": 2010,
+    "steps": [
+      {
+        "description": "Mélanger le beurre pommade, la poudre d'amande, le sucre glace, les œufs, la fécule de maïs, et l'arôme vanille jusqu'à obtenir une texture crémeuse",
+        "type": "Melanger",
+        "time": 300
+      },
+      {
+        "description": "Dérouler délicatement les pâtes feuilletées",
+        "type": "Derouler",
+        "time": 30
+      },
+      {
+        "description": "Découper des cercles dans les pâtes feuilletées",
+        "type": "Decouper",
+        "time": 120
+      },
+      {
+        "description": "Ajouter quelques morceaux de pommes et une cuillère de crème d'amande sur chaque cercle",
+        "type": "Ajouter",
+        "time": 120
+      },
+      {
+        "description": "Ajouter les dernières tranches de pommes sur la crème, puis refermer en demi-lune",
+        "type": "Ajouter",
+        "time": 240
+      },
+      {
+        "description": "Humidifier les bords avec de l'eau et souder les bords avec une fourchette",
+        "type": "Humidifier",
+        "time": 60
+      },
+      {
+        "description": "Dorer les chaussons en les badigeonnant de lait",
+        "type": "Dorer",
+        "time": 60
+      },
+      {
+        "description": "Préchauffer le four à 180°C",
+        "type": "Prechauffer",
+        "time": 1200
+      },
+      {
+        "description": "Enfourner les chaussons jusqu'à ce qu'ils soient dorés",
+        "type": "Enfourner",
+        "time": 1200
+      }
+    ]
+  },
+
+  {
+    "name": "Pain au chocolat",
+    "title": "Pain-au-chocolat",
+    "ingredients": {
+      "levure": "30g",
+      "sel": "20g",
+      "sucre": "100g",
+      "beurre": "500g",
+      "farine": "1000g",
+      "eau": "600ml",
+      "chocolat": "100g",
+      "oeuf": "1"
+    },
+    "time": 4800,
+    "steps": [
+      {
+        "description": "Dans un grand bol, mélanger la levure, le sucre, le sel et l'eau tiède",
+        "type": "Melanger",
+        "time": 300
+      },
+      {
+        "description": "Ajouter progressivement la farine tout en continuant à remuer jusqu'à ce que la pâte forme une boule",
+        "type": "Ajouter",
+        "time": 600
+      },
+      {
+        "description": "Sur une surface légèrement farinée, pétrir la pâte jusqu'à ce qu'elle soit lisse et élastique",
+        "type": "Pétrir",
+        "time": 600
+      },
+      {
+        "description": "Couvrir la pâte d'un torchon propre et laisser reposer dans un endroit chaud",
+        "type": "Couvrir",
+        "time": 3600
+      },
+      {
+        "description": "Diviser la pâte en rectangles égaux",
+        "type": "Diviser",
+        "time": 60
+      },
+      {
+        "description": "Placer un morceau de chocolat à une extrémité de chaque rectangle",
+        "type": "Placer",
+        "time": 60
+      },
+      {
+        "description": "Rouler la pâte autour du chocolat pour former le pain au chocolat",
+        "type": "Rouler",
+        "time": 60
+      },
+      {
+        "description": "Placer les pains au chocolat sur une plaque à pâtisserie recouverte de papier sulfurisé, en laissant suffisamment d'espace entre eux pour qu'ils puissent gonfler.",
+        "type": "Placer",
+        "time": 120
+      },
+      {
+        "description": "Laisser reposer les pains au chocolat",
+        "type": "Reposer",
+        "time": 1800
+      },
+      {
+        "description": "Préchauffer le four à 200°C.",
+        "type": "Prechauffer",
+        "time": 300
+      },
+      {
+        "description": "Badigeonner les pains au chocolat avec un peu d'œuf battu pour une belle dorure",
+        "type": "Dorer",
+        "time": 60
+      },
+      {
+        "description": "Enfourner les pains au chocolat",
+        "type": "Enfourner",
+        "time": 1200
+      },
+      {
+        "description": "Laisser reposer ou manger chaud c'est à vous de choisir !",
+        "type": "Refroidir",
+        "time": 300
+      }
+    ]
+  }
+]

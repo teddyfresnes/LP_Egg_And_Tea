@@ -1,0 +1,320 @@
+/* root: */
+:root {
+    --default-text-color: #000000;
+    --second-text-color: #f1f1f1; 
+    --default-bg-color: #f1f1f1;
+    --second-bg-color: rgb(232, 194, 147);
+    --hover-box-color: rgb(224, 191, 156); 
+}
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+/* Global styles: */
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--default-bg-color);
+    color: var(--default-text-color);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--default-text-color);
+}
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+/* Header */
+header {
+    background: var(--second-bg-color);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+/* Navigation: */
+nav {
+    padding: 30px;
+    background-color: var(--second-bg-color);
+}
+
+nav a {
+    margin: 10px 30px 10px 30px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: var(--hover-box-color);
+    box-shadow: 1px 1px 35px 2px rgba(230,220,230,0.3);
+}
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+/* Hero section */
+.hero {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: var(--second-bg-color);
+    box-shadow: 0 10px 20px -10px rgba(232, 194, 147,0.2);
+}
+
+.hero h2 {
+    margin: 10px;
+    font-size: 48px;
+    color: var(--default-text-color);
+    text-shadow: 1px 2px 2px rgba(80, 80, 80, 0.3);
+}
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ingredients section */
+.ingredients {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    margin: 20px 0;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2);
+}
+
+.ingredients-toggle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingredients-toggle-defiler {
+    width: 20%;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.ingredients-list {
+    transition: height 1s ease;
+    overflow: hidden;
+    display: none;
+    height: 0;
+}
+
+.ingredients.open .ingredients-list {
+    height: auto;
+    display: block;
+}
+
+.ingredients h2 {
+    text-align: center;
+    font-size: 36px;
+    width: 80%;
+    margin: 0;
+    cursor: pointer;
+}
+
+.ingredients ul {
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    width: 50%;
+}
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Product section */
+.product p {
+    margin: 10px 0;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.product {
+    background: var(--second-bg-color);
+    margin: 10px 30px 10px 30px;
+    width: 220px;
+    height: 180px;
+    border: 1px solid var(--hover-box-color);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 1px 40px 10px rgba(240,240,240,0.4);
+}
+
+.product:hover {
+    transform: scale(1.03);
+    background-color: var(--hover-box-color);
+}
+
+
+.product-logo {
+    width: 100%;
+    height: 60%;
+}
+
+.product img {
+    width: 90%;
+    height: 90%;
+}
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+/* Product crafting */
+.liste_recettes {
+	list-style-type: none;
+    width: 50%;
+}
+
+.liste_recettes li {
+    margin: 1em;
+    font-size: 20px;
+    color: #888080;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.liste_recettes li.fade-out {
+    opacity: 0;
+}
+
+.liste_recettes li.activeStep {
+    color: hsl(208, 100%, 35%);
+}
+.liste_recettes li.activeStep img {
+    filter: none;
+}
+.liste_recettes li img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 7px;
+    filter: brightness(0.9) invert(.7) sepia(.4) hue-rotate(100deg)
+}
+
+
+.crafting_product {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.timer_list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 700px;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .timer_list {
+        flex-direction: column; 
+        align-items: center; 
+
+    .liste_recettes
+    {
+        width: 90%;
+    }
+    .liste_recettes li
+    {
+        font-size: 17px;
+    }
+
+    .timer_wrapper
+    {
+        width: 80%;
+    }
+
+    }
+}
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+/* Footer */
+
+footer {
+    background: var(--second-box-color);
+    padding: 20px;
+    text-align: center;
+    color: var(--default-text-color);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li a {
+        padding: 3px;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+    }
+
+    .product h3 {
+        font-size: 20px;
+    }
+}
